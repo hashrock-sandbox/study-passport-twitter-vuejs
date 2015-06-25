@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+</head>
+<body>
+	<div class="container">
+		<div v-if="login">
+			<p>
+				{{username}}さんこんにちは
+			</p>
+			
+			<a href="/logout">Logout</a>
+		</div>
+		<div v-if="!login">
+			<a href="/auth/twitter">Login with Twitter</a>
+		</div>
+	</div>
+	<script src="dist/bundle.js"></script>
+</body>
+</html>

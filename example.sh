@@ -1,0 +1,1 @@
+TWITTER_CONSUMER_KEY=***************** TWITTER_CONSUMER_SECRET=************************ node-dev app.js 
